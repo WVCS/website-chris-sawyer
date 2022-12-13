@@ -1,3 +1,44 @@
-body {
-
+body{
+  background-color:#32A287
+}
+h1{
+  color:white;
+  font-size:250%;
+  letter-spacing:9px;
+  text-decoration: underline
+}
+p{
+  color:white;
+  font-size:134%;
+  letter-spacing:5px
+}
+img{
+  border: dashed white 6px;
+  height: 50%;
+  width: 50%
+}
+h2{
+  color:white;
+  font-size:220%;
+  letter-spacing:9px;
+  text-decoration: underline
+}
+ul{
+  list-style-type: none;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+}
+li{
+  float: left;
+}
+li a{
+  padding: 20px;
+  font-family: "Times New Roman";
+  border-style: dashed white;
+  color: white
+}
+li a:hover{
+  background-color: white;
+  color: blue;
 }
